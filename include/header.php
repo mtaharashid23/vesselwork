@@ -6,16 +6,11 @@
     <title><?php echo isset($title) ? $title : 'Home';  ?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <?php include 'include/css.php'; ?>    
 </head>
 
-<body>    
-
-    <!-- PRELOADER -->
-    <!-- <div class="preLoader black">
-        <img src="images/logo.png" alt="img">
-    </div>
-    <div class="preLoader white"></div> -->
+<body>        
 
     <!-- HEADER -->
     <header class="header">
@@ -37,27 +32,43 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
-                                href="#">About</a>
+                                href="#">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
-                                href="#">Business Solutions</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                                <a class="nav-link centerLogo" href="index.php"><img src="images/logo.png"
-                                        class="img-fluid" alt="img"></a>
-                            </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
-                                href="#">our Blog</a>
+                                href="#">CareXR</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
-                                href="#">Contact</a>
+                                href="#">Rocky</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#searchBtn"><i class="far fa-search"></i></a>
+                            <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
+                                href="#">Activities</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
+                                href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
+                                href="#">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
+                                href="#">Volunteer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
+                                href="#">Sponsor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link <?= (basename($_SERVER['PHP_SELF']) == '#') ? 'active' : '' ?>"
+                                href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="" class="themeBtn">Donate Now</a>
+                        </li>                        
                     </ul>
                 </div>
             </nav>
